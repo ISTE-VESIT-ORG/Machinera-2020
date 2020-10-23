@@ -41,7 +41,7 @@ It would happen to you that you have to read a thousand documents in a week, you
 <strong>What these things have to do with AI?</strong>
 AI used to be a fanciful concept from science fiction, but now it’s becoming a daily reality. AI can mean different things in different contexts for different people.
 For data scientists, it is a good excuse to build cool stuff whereas for end-users AI means to ease the workload.
-So there's a good reason to be enthusiastic about AI and that brings the next question to all of us "How do I g[et started to build a career in Data Science, AI, or ML?]()
+So there's a good reason to be enthusiastic about AI and that brings the next question to all of us "How do I get started to build a career in Data Science, AI, or ML?
 Don't you worry!
 We have got you covered.
 
@@ -107,10 +107,24 @@ _For more details visit this [page](https://docs.github.com/en/free-pro-team@lat
 
 See the [open issues](https://github.com/ISTE-VESIT-ORG/Machinera-2020/issues) for a list of proposed features (and known issues).
 
+
+## Pull Request
+
+1) Find a project you want to contribute to
+2) Fork it
+3) Clone it to your local system
+4) Make a new branch
+5) Make your changes
+6) Push it back to your repo
+7) Click the Compare & pull request button
+8) Click Create pull request to open a new pull request
+If the reviewers ask for changes, repeat steps 5 and 6 to add more commits to your pull request.
+
 <!-- CONTRIBUTING -->
 ## Contributing
 
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+If you feel to add any piece of code or something extra which is not there in the given material or if you want to request any feature you can raise an issue. 
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated** by **ISTE-VESIT**.
 
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
