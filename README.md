@@ -58,7 +58,7 @@ So, coming to the point, what you will get to learn from this series. We will be
 <!-- GETTING STARTED -->
 ## Getting Started
 
-To get going with the repo and AI concepts we expect yo to follow all the topics in the given manner, which eventually will lead to end of the series.
+To get going with the repo and AI concepts we expect you to follow all the topics in the given manner, which eventually will lead to end of the series.
 
 
 * [Data Manipulation and Visualization](#)
