@@ -1,24 +1,10 @@
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
+![machineraa](https://user-images.githubusercontent.com/53133493/96992406-7bdeea80-1547-11eb-924a-df7f3628e6d1.png)
 
-<!-- PROJECT LOGO -->
-<br />
 <p align="center">
-  <a href="https://github.com/ISTE-VESIT-ORG/Machinera-2020">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
-
   <h3 align="center">Machinera</h3>
 
   <p align="center">
     This is an Ai Series where we cover Machine Learning and Deep Learning topics from the very basics.
-    <br />
-    <a href="https://github.com/ISTE-VESIT-ORG/Machinera-2020"><strong>Explore the docs »</strong></a>
-    <br />
     <br />
     <a href="https://github.com/ISTE-VESIT-ORG/Machinera-2020">View Demo</a>
     ·
@@ -48,9 +34,6 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-<pre>
 Imagine looking at a graph to explore your data. In two dimensions everything makes sense. In three it gets complex, but how do we look at data that has 200 dimensions?
 It would happen to you that you have to read a thousand documents in a week, you couldn't handle it.
 
@@ -62,7 +45,6 @@ Don't you worry!
 We have got you covered.
 
 So, coming to the point, what you will get to learn from this series. We will be covering all the domains and concepts under the umbrella of Artificial intelligence. This series is going to have multiple courses, Numpy, Pandas, Seaborn,  Matplotlib, Scipy, Dataset Generation, Web Scraping, Data preprocessing, Big Data, Deep learning, ANN, CNN, and much much more!
-</pre>
 
 ### Built With
 * [Bootstrap](https://getbootstrap.com)
