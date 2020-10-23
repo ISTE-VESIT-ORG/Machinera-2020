@@ -1,7 +1,7 @@
 ![machineraa](https://user-images.githubusercontent.com/53133493/96995210-74214500-154b-11eb-80e5-ed8c0ccb3459.png)
 
 <p align="center">
-  <h3 align="center">Machinera</h3>
+  <h3 align="center">MACHINERA</h3>
 
   <p align="center">
     This is an AI Series where we will cover Machine Learning and Deep Learning topics from the very basics.
@@ -139,7 +139,7 @@ Contributions are what make the open source community such an amazing place to b
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Distributed under the MIT License. See [`LICENSE`](https://github.com/ISTE-VESIT-ORG/Machinera-2020/blob/main/LICENSE) for more information.
 
 
 
