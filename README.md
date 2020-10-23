@@ -39,7 +39,7 @@
 Imagine looking at a graph to explore your data. In two dimensions everything makes sense. In three it gets complex, but how do we look at data that has 200 dimensions?
 It would happen to you that you have to read a thousand documents in a week, you couldn't handle it.
 
-<strong>What these things have to do with AI?</strong>
+What these things have to do with AI?
 AI used to be a fanciful concept from science fiction, but now it’s becoming a daily reality. AI can mean different things in different contexts for different people.
 For data scientists, it is a good excuse to build cool stuff whereas for end-users AI means to ease the workload.
 So there's a good reason to be enthusiastic about AI and that brings the next question to all of us "How do I get started to build a career in Data Science, AI, or ML?
