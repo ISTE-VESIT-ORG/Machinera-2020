@@ -1,3 +1,20 @@
+
+* [Data Manipulation and Visualization](#)
+  * Numpy
+  * Pandas
+  * Matplotlib
+  * Seaborn
+  * Scipy
+* [Dataset Generation, Web Scraping, Data preprocessing](#)
+* [Supervised Regression](#)
+* [Big Data](#)
+* [Supervised Classification Learning](#)
+* [Unsupervised Learning](#)  
+* [Deep learning](#)
+
+
+
+
 ![machineraa](https://user-images.githubusercontent.com/53133493/96995210-74214500-154b-11eb-80e5-ed8c0ccb3459.png)
 
 <p align="center">
@@ -58,7 +75,7 @@ So, coming to the point, what you will get to learn from this series. We will be
 To get going with the repo and AI concepts we expect yo to follow all the topics in the given manner, which eventually will lead to end of the series.
 
 
-* [Data Manipulation and Visulization](#)
+* [Data Manipulation and Visualization](#)
   * Numpy
   * Pandas
   * Matplotlib
@@ -82,7 +99,7 @@ To get going with the repo and AI concepts we expect yo to follow all the topics
 
 The following links contain the usage examples of that respective session.(All the links will become available as we gradually progress)
 
-* [Data Manipulation and Visulization](#)
+* [Data Manipulation and Visualization](#)
 * [Dataset Generation, Web Scraping, Data preprocessing](#)
 * [Supervised Regression](#)
 * [Big Data](#)
