@@ -1,10 +1,11 @@
-![machineraa](https://user-images.githubusercontent.com/53133493/96992406-7bdeea80-1547-11eb-924a-df7f3628e6d1.png)
+![machineraa](https://user-images.githubusercontent.com/53133493/96995210-74214500-154b-11eb-80e5-ed8c0ccb3459.png)
 
 <p align="center">
   <h3 align="center">Machinera</h3>
 
   <p align="center">
-    This is an Ai Series where we cover Machine Learning and Deep Learning topics from the very basics.
+    This is an AI Series where we will cover Machine Learning and Deep Learning topics from the very basics.
+    All the material and codes of this series are in there respective branches.
     <br />
     <a href="https://github.com/ISTE-VESIT-ORG/Machinera-2020">View Demo</a>
     ·
@@ -40,47 +41,71 @@ It would happen to you that you have to read a thousand documents in a week, you
 <strong>What these things have to do with AI?</strong>
 AI used to be a fanciful concept from science fiction, but now it’s becoming a daily reality. AI can mean different things in different contexts for different people.
 For data scientists, it is a good excuse to build cool stuff whereas for end-users AI means to ease the workload.
-So there's a good reason to be enthusiastic about AI and that brings the next question to all of us "How do I get started to build a career in Data Science, AI, or ML?"
+So there's a good reason to be enthusiastic about AI and that brings the next question to all of us "How do I g[et started to build a career in Data Science, AI, or ML?]()
 Don't you worry!
 We have got you covered.
 
-So, coming to the point, what you will get to learn from this series. We will be covering all the domains and concepts under the umbrella of Artificial intelligence. This series is going to have multiple courses, Numpy, Pandas, Seaborn,  Matplotlib, Scipy, Dataset Generation, Web Scraping, Data preprocessing, Big Data, Deep learning, ANN, CNN, and much much more!
+So, coming to the point, what you will get to learn from this series. We will be covering all the domains and concepts under the umbrella of Artificial intelligence. This series is going to have multiple courses, Numpy, Pandas, Seaborn,  Matplotlib, Scipy, Dataset Generation, Web Scraping, Data preprocessing, Big Data, Deep learning, and much much more!
 
 ### Built With
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
-* [Laravel](https://laravel.com)
+* [Python](https://www.python.org/downloads)
 
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+To get going with the repo and AI concepts we expect yo to follow all the topics in the given manner, which eventually will lead to end of the series.
+
+* Data Manipulation and Visulization
+  * Numpy
+  * Pandas
+  * Matplotlib
+  * Seaborn
+  * Scipy
+* Dataset Generation, Web Scraping, Data preprocessing
+* Supervised Regression
+* Big Data
+* Supervised Classification Learning 
+* Unsupervised Learning  
+* Deep learning
+ 
+
+
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-```sh
-npm install npm@latest -g
-```
-
-
-<!-- USAGE EXAMPLES -->
+<p>The only pre-requisite required for this course is python basics</p>
+  
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+The following links contain the usage examples of that respective session.(All the links will become available as we gradually progress)
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+* [Data Manipulation and Visulization](#)
+* [Dataset Generation, Web Scraping, Data preprocessing](#)
+* [Supervised Regression](#)
+* [Big Data](#)
+* [Supervised Classification Learning](#)
+* [Unsupervised Learning](#)
+* [Deep learning](#)
 
 
 
 <!-- ROADMAP -->
-## Roadmap
+## Issues
+
+To propose or request any feature as well as to report any error in the given material and code please create a issue in this repository.
+
+How to create an issue : 
+1) Under this repository name, click  Issues. 
+2) Click New issue.
+3) If there are multiple issue types, click Get started next to the type of issue you'd like to open.
+4) Optionally, click Open a blank issue. if the type of issue you'd like to open isn't included in the available options.
+5) Type a title and description for your issue.
+6) When you're finished, click Submit new issue.
+
+_For more details visit this [page](https://docs.github.com/en/free-pro-team@latest/github/managing-your-work-on-github/creating-an-issue)_
 
 See the [open issues](https://github.com/ISTE-VESIT-ORG/Machinera-2020/issues) for a list of proposed features (and known issues).
-
 
 <!-- CONTRIBUTING -->
 ## Contributing
