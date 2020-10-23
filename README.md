@@ -57,18 +57,19 @@ So, coming to the point, what you will get to learn from this series. We will be
 
 To get going with the repo and AI concepts we expect yo to follow all the topics in the given manner, which eventually will lead to end of the series.
 
-* Data Manipulation and Visulization
+
+* [Data Manipulation and Visulization](#)
   * Numpy
   * Pandas
   * Matplotlib
   * Seaborn
   * Scipy
-* Dataset Generation, Web Scraping, Data preprocessing
-* Supervised Regression
-* Big Data
-* Supervised Classification Learning 
-* Unsupervised Learning  
-* Deep learning
+* [Dataset Generation, Web Scraping, Data preprocessing](#)
+* [Supervised Regression](#)
+* [Big Data](#)
+* [Supervised Classification Learning](#)
+* [Unsupervised Learning](#)  
+* [Deep learning](#)
  
 
 
