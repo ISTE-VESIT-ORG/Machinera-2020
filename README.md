@@ -24,11 +24,12 @@
 * [Getting Started](#getting-started)
   * [Prerequisites](#prerequisites)
 * [Usage](#usage)
-* [Roadmap](#roadmap)
+* [Issues](#issues)
+* [Pull Request](#pull-request)
 * [Contributing](#contributing)
 * [License](#license)
 * [Contact](#contact)
-* [Acknowledgements](#acknowledgements)
+
 
 
 
@@ -90,7 +91,7 @@ The following links contain the usage examples of that respective session.(All t
 
 
 
-<!-- ROADMAP -->
+<!-- ISSUES -->
 ## Issues
 
 To propose or request any feature as well as to report any error in the given material and code please create a issue in this repository.
