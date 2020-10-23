@@ -1,18 +1,4 @@
 
-* [Data Manipulation and Visualization](#)
-  * Numpy
-  * Pandas
-  * Matplotlib
-  * Seaborn
-  * Scipy
-* [Dataset Generation, Web Scraping, Data preprocessing](#)
-* [Supervised Regression](#)
-* [Big Data](#)
-* [Supervised Classification Learning](#)
-* [Unsupervised Learning](#)  
-* [Deep learning](#)
-
-
 
 
 ![machineraa](https://user-images.githubusercontent.com/53133493/96995210-74214500-154b-11eb-80e5-ed8c0ccb3459.png)
