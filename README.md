@@ -49,7 +49,7 @@ So there's a good reason to be enthusiastic about AI and that brings the next qu
 Don't you worry!
 We have got you covered.
 
-So, coming to the point, what you will get to learn from this series. We will be covering all the domains and concepts under the umbrella of Artificial intelligence. This series is going to have multiple courses, Numpy, Pandas, Seaborn,  Matplotlib, Scipy, Dataset Generation, Web Scraping, Data preprocessing, Big Data, Deep learning, and much much more!
+So, coming to the point, what you will get to learn from this series. We will be covering all the domains and concepts under the umbrella of Artificial intelligence. This series is going to have multiple courses, Numpy, Pandas, Seaborn,  Matplotlib, Scipy, Dataset Generation, Web Scraping, Data preprocessing, Big Data, Deep learning and much much more!
 
 ### Built With
 * [Python](https://www.python.org/downloads)
