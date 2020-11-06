@@ -1,8 +1,5 @@
 
 
-
-![machineraa](https://user-images.githubusercontent.com/53133493/96995210-74214500-154b-11eb-80e5-ed8c0ccb3459.png)
-
 <p align="center">
   <h3 align="center">MACHINERA</h3>
 
@@ -19,139 +16,61 @@
 </p>
 
 
-<!-- TABLE OF CONTENTS -->
-## Table of Contents
+## Overview
 
-* [About the Project](#about-the-project)
-  * [Built With](#built-with)
-* [Getting Started](#getting-started)
-  * [Prerequisites](#prerequisites)
-* [Usage](#usage)
-* [Issues](#issues)
-* [Pull Request](#pull-request)
-* [Contributing](#contributing)
-* [License](#license)
-* [Contact](#contact)
+We covered the following topis in the workshop 
+* [Data Manipulation]
+  * [Numpy]
+  * [Pandas]
+  * [Scipy]
+* [Data Visualization]
+  * [Matplotlib]
+  * [Seaborn]
 
+## Matplotlib
 
+Matplotlib is a comprehensive library for creating static, animated, and interactive visualizations in Python. It is one of the most popular Python packages used for data visualization. It is a cross-platform library for making 2D plots from data in arrays. Matplotlib is written in Python and makes use of NumPy, the numerical mathematics extension of Python. It provides an object-oriented API that helps in embedding plots in applications using Python GUI toolkits. The topics covered were :
 
+1. Environment Setup (`pip3 install matplotlib`)
+2. Matplotlib Basics
+3. Subplots
+4. Object Oriented Interface
+5. Grids
+6. Formatting Axes
+7. Other types of plots 
 
-<!-- ABOUT THE PROJECT -->
-## About The Project
+## Seaborn
 
-Imagine looking at a graph to explore your data. In two dimensions everything makes sense. In three it gets complex, but how do we look at data that has 200 dimensions?
-It would happen to you that you have to read a thousand documents in a week, you couldn't handle it.
+In the world of Analytics, the best way to get insights is by visualizing the data. Data can be visualized by representing it as plots which is easy to understand, explore and grasp. Such data helps in drawing the attention of key elements.
 
-What these things have to do with AI?
-AI used to be a fanciful concept from science fiction, but now it’s becoming a daily reality. AI can mean different things in different contexts for different people.
-For data scientists, it is a good excuse to build cool stuff whereas for end-users AI means to ease the workload.
-So there's a good reason to be enthusiastic about AI and that brings the next question to all of us "How do I get started to build a career in Data Science, AI, or ML?
-Don't you worry!
-We have got you covered.
+To analyse a set of data using Python, we make use of Matplotlib, a widely implemented 2D plotting library. Likewise, Seaborn is a visualization library in Python. It is built on top of Matplotlib.
 
-So, coming to the point, what you will get to learn from this series. We will be covering all the domains and concepts under the umbrella of Artificial intelligence. This series is going to have multiple courses, Numpy, Pandas, Seaborn,  Matplotlib, Scipy, Dataset Generation, Web Scraping, Data preprocessing, Big Data, Deep learning, and much much more!
+Seaborn Vs Matplotlib
+It is summarized that if Matplotlib “tries to make easy things easy and hard things possible”, Seaborn tries to make a well-defined set of hard things easy too.”
 
-### Built With
-* [Python](https://www.python.org/downloads)
+Seaborn helps resolve the two major problems faced by Matplotlib; the problems are −
+* [Default Matplotlib parameters]
+* [Working with data frames]
+As Seaborn compliments and extends Matplotlib, the learning curve is quite gradual. If you know Matplotlib, you are already half way through Seaborn.
 
+Important Features of Seaborn
+Seaborn is built on top of Python’s core visualization library Matplotlib. It is meant to serve as a complement, and not a replacement. However, Seaborn comes with some very important features. Let us see a few of them here. The features help in −
 
-<!-- GETTING STARTED -->
-## Getting Started
+* [Built in themes for styling matplotlib graphics]
+* [Visualizing univariate and bivariate data]
+* [Fitting in and visualizing linear regression models]
+* [Plotting statistical time series data]
+* [Seaborn works well with NumPy and Pandas data structures]
+* [It comes with built in themes for styling Matplotlib graphics]
 
-To get going with the repo and AI concepts we expect you to follow all the topics in the given manner, which eventually will lead to end of the series.
+In most cases, you will still use Matplotlib for simple plotting. The knowledge of Matplotlib is recommended to tweak Seaborn’s default plots. The topics covered are : 
 
-
-* [Data Manipulation and Visualization](#)
-  * Numpy
-  * Pandas
-  * Matplotlib
-  * Seaborn
-  * Scipy
-* [Dataset Generation, Web Scraping, Data preprocessing](#)
-* [Supervised Regression](#)
-* [Big Data](#)
-* [Supervised Classification Learning](#)
-* [Unsupervised Learning](#)  
-* [Deep learning](#)
- 
-
-
-
-### Prerequisites
-
-<p>The only pre-requisite required for this course is python basics</p>
-  
-## Usage
-
-The following links contain the usage examples of that respective session.(All the links will become available as we gradually progress)
-
-* [Data Manipulation and Visualization](#)
-* [Dataset Generation, Web Scraping, Data preprocessing](#)
-* [Supervised Regression](#)
-* [Big Data](#)
-* [Supervised Classification Learning](#)
-* [Unsupervised Learning](#)
-* [Deep learning](#)
-
-
-
-<!-- ISSUES -->
-## Issues
-
-To propose or request any feature as well as to report any error in the given material and code please create a issue in this repository.
-
-How to create an issue : 
-1) Under this repository name, click  Issues. 
-2) Click New issue.
-3) If there are multiple issue types, click Get started next to the type of issue you'd like to open.
-4) Optionally, click Open a blank issue. if the type of issue you'd like to open isn't included in the available options.
-5) Type a title and description for your issue.
-6) When you're finished, click Submit new issue.
-
-_For more details visit this [page](https://docs.github.com/en/free-pro-team@latest/github/managing-your-work-on-github/creating-an-issue)_
-
-See the [open issues](https://github.com/ISTE-VESIT-ORG/Machinera-2020/issues) for a list of proposed features (and known issues).
-
-
-## Pull Request
-
-1) Find a project you want to contribute to
-2) Fork it
-3) Clone it to your local system
-4) Make a new branch
-5) Make your changes
-6) Push it back to your repo
-7) Click the Compare & pull request button
-8) Click Create pull request to open a new pull request
-If the reviewers ask for changes, repeat steps 5 and 6 to add more commits to your pull request.
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-If you feel to add any piece of code or something extra which is not there in the given material or if you want to request any feature you can raise an issue. 
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated** by **ISTE-VESIT**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See [`LICENSE`](https://github.com/ISTE-VESIT-ORG/Machinera-2020/blob/main/LICENSE) for more information.
-
-
-
-<!-- CONTACT -->
-## Contact
-
-ISTE-VESIT - [@istevesit.org](http://www.istevesit.org) - iste.vesit@ves.ac.in
-
-Project Link: [https://github.com/ISTE-VESIT-ORG/Machinera-2020](https://github.com/ISTE-VESIT-ORG)
-
+1. Environment Setup (`pip install seaborn`)
+2. Different types of plots(jointplot, pairplot, violinplot, boxplot, etc)
+3. Heatmap
+4. Clustermap
+5. Grids
+6. Regression plots
+7. Formatting axes
 
 
