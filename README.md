@@ -19,13 +19,13 @@
 ## Overview
 
 We covered the following topis in the workshop 
-* [Data Manipulation]
-  * [Numpy]
-  * [Pandas]
-  * [Scipy]
-* [Data Visualization]
-  * [Matplotlib]
-  * [Seaborn]
+* Data Manipulation
+  * Numpy
+  * Pandas
+  * Scipy
+* Data Visualization
+  * Matplotlib
+  * Seaborn
 
 ## Matplotlib
 
@@ -46,24 +46,7 @@ In the world of Analytics, the best way to get insights is by visualizing the da
 To analyse a set of data using Python, we make use of Matplotlib, a widely implemented 2D plotting library. Likewise, Seaborn is a visualization library in Python. It is built on top of Matplotlib.
 
 Seaborn Vs Matplotlib
-It is summarized that if Matplotlib “tries to make easy things easy and hard things possible”, Seaborn tries to make a well-defined set of hard things easy too.”
-
-Seaborn helps resolve the two major problems faced by Matplotlib; the problems are −
-* [Default Matplotlib parameters]
-* [Working with data frames]
-As Seaborn compliments and extends Matplotlib, the learning curve is quite gradual. If you know Matplotlib, you are already half way through Seaborn.
-
-Important Features of Seaborn
-Seaborn is built on top of Python’s core visualization library Matplotlib. It is meant to serve as a complement, and not a replacement. However, Seaborn comes with some very important features. Let us see a few of them here. The features help in −
-
-* [Built in themes for styling matplotlib graphics]
-* [Visualizing univariate and bivariate data]
-* [Fitting in and visualizing linear regression models]
-* [Plotting statistical time series data]
-* [Seaborn works well with NumPy and Pandas data structures]
-* [It comes with built in themes for styling Matplotlib graphics]
-
-In most cases, you will still use Matplotlib for simple plotting. The knowledge of Matplotlib is recommended to tweak Seaborn’s default plots. The topics covered are : 
+It is summarized that if Matplotlib “tries to make easy things easy and hard things possible”, Seaborn tries to make a well-defined set of hard things easy too.” In most cases, you will still use Matplotlib for simple plotting. The knowledge of Matplotlib is recommended to tweak Seaborn’s default plots. The topics covered are : 
 
 1. Environment Setup (`pip install seaborn`)
 2. Different types of plots(jointplot, pairplot, violinplot, boxplot, etc)
