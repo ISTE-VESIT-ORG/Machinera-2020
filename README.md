@@ -15,21 +15,22 @@
   </p>
 </p>
 
-
 ## Overview
 
 We covered the following topis in the workshop 
 * Data Manipulation
-  * Numpy
-  * Pandas
-  * Scipy
+  * [Numpy](#numpy)
+  * [Pandas](#pandas)
+  * [Scipy](#scipy)
 * Data Visualization
-  * Matplotlib
-  * Seaborn
+  * [Matplotlib](#matplotlib)
+  * [Seaborn](#seaborn)
   
 ## NumPy
 
-Numpy is one of the most fundamental libraries for using Python in the field of Machine Learning. NumPy is a numerical library for Python that allows extremely fast data handling anf generation. It utilises arrays that can store data much more efficiently than a regular Python list. NumPy is extremely important to learn before learning about the Pandas library. The topics covered are :
+Numpy is one of the most fundamental libraries for using Python in the field of Machine Learning. NumPy is a numerical library for Python that allows extremely fast data handling anf generation. It utilises arrays that can store data much more efficiently than a regular Python list. NumPy is extremely important to learn before learning about the Pandas library
+
+The topics covered are :
 
 1. Environment Setup (`pip3 install numpy`)
 2. NumPy Arrays
@@ -37,11 +38,13 @@ Numpy is one of the most fundamental libraries for using Python in the field of 
 4. NumPy Array Indexing
 5. NumPy Matrices
 
+_For more detail, visit [NumPy documentation](https://numpy.org/doc/stable/contents.html)_
+
 ## Pandas
 
 Pandas is the most popular Python library that is used for data analysis. It offers data structure and tools for effective data manipulation and analysis. It provides fast access to structured data, with highly optimized performance. We can analyze data in pandas using its core components, which are:
   _Series_ - Series is one-dimensional array defined in pandas that can be used to store any data type.
-  _DataFrames_ - The primary instrument of pandas is the two-dimensional table consisting of column and row labels, called data frames.
+  _DataFrames_ - The primary instrument of pandas is the two-dimensional table consisting of column and row labels, called data frames<br>
  
 The topics covered are:  
 
@@ -55,6 +58,8 @@ The topics covered are:
 8. Regular Expressions
 9. Conditional Change
 10. Aggregate Statistics
+
+_For more details, visit [Pandas documentation](https://pandas.pydata.org/docs/)_
 
 ## SciPy
 
@@ -73,9 +78,13 @@ The topics covered are:
 6. Fourier Transformation
 7. Statistics
 
+_For more details, visit [SciPy documentation](https://docs.scipy.org/doc/scipy/reference/)_
+
 ## Matplotlib
 
-Matplotlib is a comprehensive library for creating static, animated, and interactive visualizations in Python. It is one of the most popular Python packages used for data visualization. It is a cross-platform library for making 2D plots from data in arrays. Matplotlib is written in Python and makes use of NumPy, the numerical mathematics extension of Python. It provides an object-oriented API that helps in embedding plots in applications using Python GUI toolkits. The topics covered were :
+Matplotlib is a comprehensive library for creating static, animated, and interactive visualizations in Python. It is one of the most popular Python packages used for data visualization. It is a cross-platform library for making 2D plots from data in arrays. Matplotlib is written in Python and makes use of NumPy, the numerical mathematics extension of Python. It provides an object-oriented API that helps in embedding plots in applications using Python GUI toolkits
+
+The topics covered are:
 
 1. Environment Setup (`pip3 install matplotlib`)
 2. Matplotlib Basics
@@ -85,14 +94,16 @@ Matplotlib is a comprehensive library for creating static, animated, and interac
 6. Formatting Axes
 7. Other types of plots 
 
+_For more details, visit [MatPlotLib documentation](https://matplotlib.org/3.3.3/contents.html)_
+
 ## Seaborn
 
-In the world of Analytics, the best way to get insights is by visualizing the data. Data can be visualized by representing it as plots which is easy to understand, explore and grasp. Such data helps in drawing the attention of key elements.
-
-To analyse a set of data using Python, we make use of Matplotlib, a widely implemented 2D plotting library. Likewise, Seaborn is a visualization library in Python. It is built on top of Matplotlib.
+In the world of Analytics, the best way to get insights is by visualizing the data. Data can be visualized by representing it as plots which is easy to understand, explore and grasp. Such data helps in drawing the attention of key elements. To analyse a set of data using Python, we make use of Matplotlib, a widely implemented 2D plotting library. Likewise, Seaborn is a visualization library in Python. It is built on top of Matplotlib.
 
 Seaborn Vs Matplotlib
-It is summarized that if Matplotlib “tries to make easy things easy and hard things possible”, Seaborn tries to make a well-defined set of hard things easy too.” In most cases, you will still use Matplotlib for simple plotting. The knowledge of Matplotlib is recommended to tweak Seaborn’s default plots. The topics covered are : 
+It is summarized that if Matplotlib “tries to make easy things easy and hard things possible”, Seaborn tries to make a well-defined set of hard things easy too.” In most cases, you will still use Matplotlib for simple plotting. The knowledge of Matplotlib is recommended to tweak Seaborn’s default plots
+
+The topics covered are:
 
 1. Environment Setup (`pip install seaborn`)
 2. Different types of plots(jointplot, pairplot, violinplot, boxplot, etc)
@@ -101,5 +112,7 @@ It is summarized that if Matplotlib “tries to make easy things easy and hard t
 5. Grids
 6. Regression plots
 7. Formatting axes
+
+_For more details, visit [Seaborn documentaion](https://seaborn.pydata.org/index.html)_
 
 
