@@ -43,16 +43,18 @@ Pandas is the most popular Python library that is used for data analysis. It off
   _Series_ - Series is one-dimensional array defined in pandas that can be used to store any data type.
   _DataFrames_ - The primary instrument of pandas is the two-dimensional table consisting of column and row labels, called data frames.
  
-The topics covered are:
-1. Loading Data
-2. Viewing Data
-3. Sorting/Describing Data
-4. Making Changes
-5. Rearranging Data
-6. Filtering Data
-7. Regular Expressions
-8. Conditional Change
-9. Aggregate Statistics
+The topics covered are:  
+
+1. Environment Setup (`pip install pandas`)
+2. Loading Data
+3. Viewing Data
+4. Sorting/Describing Data
+5. Making Changes
+6. Rearranging Data
+7. Filtering Data
+8. Regular Expressions
+9. Conditional Change
+10. Aggregate Statistics
 
 ## SciPy
 
