@@ -37,6 +37,21 @@ Numpy is one of the most fundamental libraries for using Python in the field of 
 4. NumPy Array Indexing
 5. NumPy Matrices
 
+## SciPy
+
+Mathematics and scientific research has to be the most sacred domain of science, and to solve their underlying problems, SciPy is the messiah
+SciPy is a free and open-source Python library used for scientific computing and technical computing. SciPy contains modules for **optimization**, **linear algebra**, **integration**, **interpolation**, **special functions**, **FFT**, **signal and image processing**, **ODE solvers** and other tasks common in science and engineering
+
+1. Environment setup (`pip3 install scipy`)
+   - If the above does not work, (`pip install git+https://github.com/scipy/scipy.git`)
+   - Since NumPy is a dependency, it should be installed as well
+2. Subpackages in SciPy
+3. Basic Functions
+4. Special Functions
+5. Integration Functions
+6. Linear Algebra
+7. Interpolation Functions
+
 ## Matplotlib
 
 Matplotlib is a comprehensive library for creating static, animated, and interactive visualizations in Python. It is one of the most popular Python packages used for data visualization. It is a cross-platform library for making 2D plots from data in arrays. Matplotlib is written in Python and makes use of NumPy, the numerical mathematics extension of Python. It provides an object-oriented API that helps in embedding plots in applications using Python GUI toolkits. The topics covered were :
