@@ -58,8 +58,10 @@ The topics covered are:
 
 ## SciPy
 
-Mathematics and scientific research has to be the most sacred domain of science, and to solve their underlying problems, SciPy is the messiah
+Mathematics and scientific research has to be the most sacred domain of science, and to solve their underlying problems, SciPy is the messiah.
 SciPy is a free and open-source Python library used for scientific computing and technical computing. SciPy contains modules for **optimization**, **linear algebra**, **integration**, **interpolation**, **special functions**, **FFT**, **signal and image processing**, **ODE solvers** and other tasks common in science and engineering
+
+The topics covered are:  
 
 1. Environment setup (`pip3 install scipy`)
    - If the above does not work, (`pip install git+https://github.com/scipy/scipy.git`)
