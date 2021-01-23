@@ -26,6 +26,16 @@ We covered the following topis in the workshop
 * Data Visualization
   * Matplotlib
   * Seaborn
+  
+## NumPy
+
+Numpy is one of the most fundamental libraries for using Python in the field of Machine Learning. NumPy is a numerical library for Python that allows extremely fast data handling anf generation. It utilises arrays that can store data much more efficiently than a regular Python list. NumPy is extremely important to learn before learning about the Pandas library. The topics covered are :
+
+1. Environment Setup (`pip3 install numpy`)
+2. NumPy Arrays
+3. NumPy Operations
+4. NumPy Array Indexing
+5. NumPy Matrices
 
 ## Matplotlib
 
