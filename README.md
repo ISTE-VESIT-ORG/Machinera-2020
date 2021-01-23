@@ -45,12 +45,12 @@ SciPy is a free and open-source Python library used for scientific computing and
 1. Environment setup (`pip3 install scipy`)
    - If the above does not work, (`pip install git+https://github.com/scipy/scipy.git`)
    - Since NumPy is a dependency, it should be installed as well
-2. Subpackages in SciPy
-3. Basic Functions
-4. Special Functions
-5. Integration Functions
-6. Linear Algebra
-7. Interpolation Functions
+2. Basic Functions
+3. Special Functions
+4. Integration Functions
+5. Linear Algebra
+6. Fourier Transformation
+7. Statistics
 
 ## Matplotlib
 
