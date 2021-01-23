@@ -52,6 +52,23 @@ SciPy is a free and open-source Python library used for scientific computing and
 6. Fourier Transformation
 7. Statistics
 
+## Pandas
+
+Pandas is the most popular Python library that is used for data analysis. It offers data structure and tools for effective data manipulation and analysis. It provides fast access to structured data, with highly optimized performance. We can analyze data in pandas using its core components, which are:
+  _Series_ - Series is one-dimensional array defined in pandas that can be used to store any data type.
+  _DataFrames_ - The primary instrument of pandas is the two-dimensional table consisting of column and row labels, called data frames.
+ 
+The topics covered are:
+1. Loading Data
+2. Viewing Data
+3. Sorting/Describing Data
+4. Making Changes
+5. Rearranging Data
+6. Filtering Data
+7. Regular Expressions
+8. Conditional Change
+9. Aggregate Statistics
+
 ## Matplotlib
 
 Matplotlib is a comprehensive library for creating static, animated, and interactive visualizations in Python. It is one of the most popular Python packages used for data visualization. It is a cross-platform library for making 2D plots from data in arrays. Matplotlib is written in Python and makes use of NumPy, the numerical mathematics extension of Python. It provides an object-oriented API that helps in embedding plots in applications using Python GUI toolkits. The topics covered were :
