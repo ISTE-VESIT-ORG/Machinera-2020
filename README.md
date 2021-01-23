@@ -37,21 +37,6 @@ Numpy is one of the most fundamental libraries for using Python in the field of 
 4. NumPy Array Indexing
 5. NumPy Matrices
 
-## SciPy
-
-Mathematics and scientific research has to be the most sacred domain of science, and to solve their underlying problems, SciPy is the messiah
-SciPy is a free and open-source Python library used for scientific computing and technical computing. SciPy contains modules for **optimization**, **linear algebra**, **integration**, **interpolation**, **special functions**, **FFT**, **signal and image processing**, **ODE solvers** and other tasks common in science and engineering
-
-1. Environment setup (`pip3 install scipy`)
-   - If the above does not work, (`pip install git+https://github.com/scipy/scipy.git`)
-   - Since NumPy is a dependency, it should be installed as well
-2. Basic Functions
-3. Special Functions
-4. Integration Functions
-5. Linear Algebra
-6. Fourier Transformation
-7. Statistics
-
 ## Pandas
 
 Pandas is the most popular Python library that is used for data analysis. It offers data structure and tools for effective data manipulation and analysis. It provides fast access to structured data, with highly optimized performance. We can analyze data in pandas using its core components, which are:
@@ -68,6 +53,21 @@ The topics covered are:
 7. Regular Expressions
 8. Conditional Change
 9. Aggregate Statistics
+
+## SciPy
+
+Mathematics and scientific research has to be the most sacred domain of science, and to solve their underlying problems, SciPy is the messiah
+SciPy is a free and open-source Python library used for scientific computing and technical computing. SciPy contains modules for **optimization**, **linear algebra**, **integration**, **interpolation**, **special functions**, **FFT**, **signal and image processing**, **ODE solvers** and other tasks common in science and engineering
+
+1. Environment setup (`pip3 install scipy`)
+   - If the above does not work, (`pip install git+https://github.com/scipy/scipy.git`)
+   - Since NumPy is a dependency, it should be installed as well
+2. Basic Functions
+3. Special Functions
+4. Integration Functions
+5. Linear Algebra
+6. Fourier Transformation
+7. Statistics
 
 ## Matplotlib
 
