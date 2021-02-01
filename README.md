@@ -113,6 +113,6 @@ The topics covered are:
 6. Regression plots
 7. Formatting axes
 
-_For more details, visit [Seaborn documentaion](https://seaborn.pydata.org/index.html)_
+_For more details, visit [Seaborn documentation](https://seaborn.pydata.org/index.html)_
 
 
