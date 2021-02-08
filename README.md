@@ -33,14 +33,17 @@ We cover the following topics in the workshop
 
 Beautiful Soup is a pure Python library for extracting structured data from a website. It allows you to parse data from HTML and XML files. It acts as a helper module and interacts with HTML in a similar and better way as to how you would interact with a web page using other available developer tools.
 
-Installation : (`pip3 install beautifulsoup4`)
+Environment setup : (`pip3 install beautifulsoup4`)
 
 Dependencies: `requests`, `parser` like `lxml` & `html5lib`
 
 _For more details, visit the [BeautifulSoup documentation] (https://www.crummy.com/software/BeautifulSoup/bs4/doc/#)_
 
 ## Selenium
-<!-- Here comes the Selenium section-->
+
+Selenium is an automation testing framework for web applications/websites which can also control the browser to navigate the website just like a human. Selenium uses a web-driver package that can take control of the browser and mimic user-oriented actions to trigger desired events. 
+
+Environment setup : (`pip install selenium`)
 
 _For more details, visit the [Selenium documentation] (https://scikit-learn.org/stable/getting_started.html)_
 
