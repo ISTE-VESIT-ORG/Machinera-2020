@@ -58,11 +58,14 @@ _For more details, visit the [Selenium documentation](https://www.selenium.dev/d
 Scrapy is a high-level web crawling and web scraping framework written entirely in Python. It was designed to deploy spiders which extract structured data from webpages. Scrapy has applications in the fields of data mining, monitoring and automated testing. Being built on Twisted - an asynchronus network framework, Scrapy allows its crawlers to make simultaneous requests which makes it massively more efficient than BeautifulSoup and Selenium.
 
 Scrapy supports both CSS and Xpath selectors like Selenium. However, it lacks native Javascript support, using Splash library to handle the job. Scrapy can easily handle multiple webpages, infinite scrolling and spoofing request headers. Further, Scrapy can also be used alongside BeautifulSoup for parsing web pages.
+
 The topics covered are:
 1. Environment setup (Recommended through Anaconda using `conda install -c conda-forge scrapy`)
 2. Building Spiders
 3. Configuring Pipelines
 4. Configuring Middleware
 5. Deploying Spiders
+
+Dependencies include: [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/#), [parsel](https://pypi.org/project/parsel/), [w3lib](https://pypi.org/project/w3lib/), [Twisted](https://twistedmatrix.com/trac/) and [pyOpenSSL](https://pypi.org/project/pyOpenSSL/)
 
 _For more details, visit the [Scrapy documentation](https://docs.scrapy.org/en/latest/)_
