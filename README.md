@@ -47,9 +47,11 @@ _For more details, visit the [BeautifulSoup documentation](https://www.crummy.co
 
 Selenium is an automation testing framework for web applications/websites which can also control the browser to navigate the website just like a human. Selenium uses a web-driver package that can take control of the browser and mimic user-oriented actions to trigger desired events. 
 
-Environment setup : (`pip install selenium`)
-
-Chrome driver : [click here](https://chromedriver.chromium.org/downloads)
+The topics coverd are
+1. Environment setup : (`pip install selenium`)
+2. Chrome driver
+3. 
+4. Whatsapp spam messages
 
 _For more details, visit the [Selenium documentation](https://www.selenium.dev/documentation/en/)_
 
