@@ -41,7 +41,7 @@ Dependencies:
 
   2. `parser` like [lxml](https://lxml.de/) & [html5lib](https://html5lib.readthedocs.io/en/latest/)
 
-_For more details, visit the [BeautifulSoup documentation] (https://www.crummy.com/software/BeautifulSoup/bs4/doc/#)_
+_For more details, visit the [BeautifulSoup documentation](https://www.crummy.com/software/BeautifulSoup/bs4/doc/#)_
 
 ## Selenium
 
@@ -49,7 +49,7 @@ Selenium is an automation testing framework for web applications/websites which 
 
 Environment setup : (`pip install selenium`)
 
-_For more details, visit the [Selenium documentation] (https://www.selenium.dev/documentation/en/)_
+_For more details, visit the [Selenium documentation](https://www.selenium.dev/documentation/en/)_
 
 ## Scrapy
 
@@ -63,4 +63,4 @@ The topics covered are:
 4. Configuring Middleware
 5. Deploying Spiders
 
-_For more details, visit the [Scrapy documentation] (https://docs.scrapy.org/en/latest/)_
+_For more details, visit the [Scrapy documentation](https://docs.scrapy.org/en/latest/)_
