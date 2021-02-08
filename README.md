@@ -18,4 +18,5 @@
 Beautiful Soup is a pure Python library for extracting structured data from a website. It allows you to parse data from HTML and XML files. It acts as a helper module and interacts with HTML in a similar and better way as to how you would interact with a web page using other available developer tools.
 
 Installation : (`pip3 install beautifulsoup4`)
+
 Dependencies: `requests`, `parser` like `lxml` & `html5lib`
