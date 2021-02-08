@@ -37,9 +37,9 @@ Environment setup : (`pip3 install beautifulsoup4`)
 
 Dependencies: 
 
-1. `requests`
+  1. `requests`
 
-2.`parser` like [lxml](https://lxml.de/) & [html5lib](https://html5lib.readthedocs.io/en/latest/)
+  2. `parser` like [lxml](https://lxml.de/) & [html5lib](https://html5lib.readthedocs.io/en/latest/)
 
 _For more details, visit the [BeautifulSoup documentation] (https://www.crummy.com/software/BeautifulSoup/bs4/doc/#)_
 
