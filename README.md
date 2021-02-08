@@ -22,7 +22,7 @@ Installation : (`pip3 install beautifulsoup4`)
 
 <h3>Why use Beautiful soup?</h3>
 
-  1. It usually saves programmers hours or days of work since it works with your favorite parsers like lxml and html5lib to provide organic Python ways of navigating, searching, and modifying the parse tree.
+  1. It usually saves programmers hours or days of work since it works with your favorite parsers like `lxml` and `html5lib` to provide organic Python ways of navigating, searching, and modifying the parse tree.
 
   2. Another powerful and useful feature of beautiful soup is its intelligence to convert the documents being fetched to Unicode and outgoing documents to UTF-8. As a developer, you do not have to take care of that unless the document intrinsic doesn't specify an encoding or Beautiful Soup is unable to detect one.
 
