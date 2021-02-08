@@ -49,6 +49,8 @@ Selenium is an automation testing framework for web applications/websites which 
 
 Environment setup : (`pip install selenium`)
 
+Chrome driver : [click here](https://chromedriver.chromium.org/downloads)
+
 _For more details, visit the [Selenium documentation](https://www.selenium.dev/documentation/en/)_
 
 ## Scrapy
