@@ -50,7 +50,7 @@ Selenium is an automation testing framework for web applications/websites which 
 The topics coverd are
 1. Environment setup : (`pip install selenium`)
 2. Chrome driver
-3. 
+3. Selenium_scraper
 4. Whatsapp spam messages
 
 _For more details, visit the [Selenium documentation](https://www.selenium.dev/documentation/en/)_
