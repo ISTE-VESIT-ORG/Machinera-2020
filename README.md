@@ -80,12 +80,6 @@ The following links contain the usage examples of that respective session.(All t
 
 * [Data Manipulation and Visualization](#)
 * [Dataset Generation, Web Scraping, Data preprocessing](#)
-* [Supervised Regression](#)
-* [Big Data](#)
-* [Supervised Classification Learning](#)
-* [Unsupervised Learning](#)
-* [Deep learning](#)
-
 
 
 <!-- ISSUES -->
