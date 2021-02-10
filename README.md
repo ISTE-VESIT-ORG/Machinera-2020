@@ -68,13 +68,6 @@ To get going with the repo and AI concepts we expect you to follow all the topic
   * Seaborn
   * Scipy
 * [Dataset Generation, Web Scraping, Data preprocessing](#)
-* [Supervised Regression](#)
-* [Big Data](#)
-* [Supervised Classification Learning](#)
-* [Unsupervised Learning](#)  
-* [Deep learning](#)
- 
-
 
 
 ### Prerequisites
