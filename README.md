@@ -23,7 +23,7 @@ We cover the following topics in the workshop
   * [Selenium](#selenium)
   * [Scrapy](#scrapy)
 * Data Preprocessing
-  * [scikit-learn](#scikitlearn) 
+  * [scikit-learn](#scikit-learn) 
   <!--
   change this/add others as needed 
   -Hridesh 
@@ -95,7 +95,7 @@ Dependencies include: [BeautifulSoup](https://www.crummy.com/software/BeautifulS
 
 _For more details, visit the [Scrapy documentation](https://docs.scrapy.org/en/latest/)_
 
-## scikitlearn
+## Scikit-learn
 
 Scikit-learn (Sklearn) is the most useful and robust library for machine learning in Python. It provides a selection of efficient tools for **machine learning** and **statistical modeling** including classification, regression, clustering and dimensionality reduction via a consistence interface in Python. This library, which is largely written in Python, is built upon <ins>NumPy</ins>, <ins>SciPy</ins> and <ins>Matplotlib.<ins/>
 
