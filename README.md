@@ -94,3 +94,15 @@ The topics covered are:
 Dependencies include: [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/#), [parsel](https://pypi.org/project/parsel/), [w3lib](https://pypi.org/project/w3lib/), [Twisted](https://twistedmatrix.com/trac/) and [pyOpenSSL](https://pypi.org/project/pyOpenSSL/)
 
 _For more details, visit the [Scrapy documentation](https://docs.scrapy.org/en/latest/)_
+
+## scikitlearn
+
+Scikit-learn (Sklearn) is the most useful and robust library for machine learning in Python. It provides a selection of efficient tools for **machine learning** and **statistical modeling** including classification, regression, clustering and dimensionality reduction via a consistence interface in Python. This library, which is largely written in Python, is built upon <ins>NumPy</ins>, <ins>SciPy</ins> and <ins>Matplotlib.<ins/>
+
+The topics covered are:
+
+1.Handling Missing and Duplicate Data
+2.Extract Dependent and Independent variables
+3.Encoding Categorical Data
+4.Splitting dataset into training and test set
+5.Feature scaling
