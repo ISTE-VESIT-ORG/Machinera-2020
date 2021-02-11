@@ -101,11 +101,11 @@ Scikit-learn (Sklearn) is the most useful and robust library for machine learnin
 
 The topics covered are: 
 
-1.Enviornment Setup (`pip install scikit-learn`)
-2.Handling Missing and Duplicate Data
-3.Extract Dependent and Independent variables
-4.Encoding Categorical Data
-5.Splitting dataset into training and test set
-6.Feature scaling
+1. Enviornment Setup (`pip install scikit-learn`)
+2. Handling Missing and Duplicate Data
+3. Extract Dependent and Independent variables
+4. Encoding Categorical Data
+5. Splitting dataset into training and test set
+6. Feature scaling
 
 _For more details, visit the [Scikit-learn ](https://devdocs.io/scikit_learn/)_
