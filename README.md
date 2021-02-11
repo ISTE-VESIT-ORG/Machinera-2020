@@ -97,7 +97,7 @@ _For more details, visit the [Scrapy documentation](https://docs.scrapy.org/en/l
 
 ## Scikit-learn
 
-Scikit-learn (Sklearn) is the most useful and robust library for machine learning in Python. It provides a selection of efficient tools for **machine learning** and **statistical modeling** including classification, regression, clustering and dimensionality reduction via a consistence interface in Python. This library, which is largely written in Python, is built upon <ins>NumPy</ins>, <ins>SciPy</ins> and <ins>Matplotlib.<ins/>
+Scikit-learn (Sklearn) is the most useful and robust library for machine learning in Python. It provides a selection of efficient tools for **machine learning** and **statistical modeling** including classification, regression, clustering and dimensionality reduction via a consistence interface in Python. This library, which is largely written in Python, is built upon [NumPy](https://numpy.org/doc/stable/contents.html), [SciPy](https://matplotlib.org/contents.html) and [Matplotlib](https://matplotlib.org/contents.html)
 
 The topics covered are: 
 
