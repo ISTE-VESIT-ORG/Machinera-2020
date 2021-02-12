@@ -124,9 +124,9 @@ The topics covered are:
 _For more details, visit the [Sweetviz Documentation](https://pypi.org/project/sweetviz/)_
 
 ## IPython
-IPython is a powerful interactive shell built using Python, JavaScript, HTML and CSS as well as a kernel for [Jupyter](https://jupyter.org/). The goal of IPython is to create a comprehensive environment for interactive and exploratory computing. It is an important tool used in EDA with its support for interactive data visualisation. 
+IPython is a powerful interactive shell built using _**Python, JavaScript, HTML and CSS**_ as well as a kernel for [Jupyter](https://jupyter.org/). The goal of IPython is to create a comprehensive environment for interactive and exploratory computing. It is an important tool used in EDA with its support for interactive data visualisation. 
 
-IPython provides an interactive shell superior to Python’s default. It has many features for tab-completion, object introspection, system shell access, command history retrieval across sessions, and its own special command system for adding functionality when working interactively. It tries to be a very efficient environment both for Python code development and for exploration of problems using Python objects (in situations like data analysis).
+IPython provides an interactive shell <ins>superior</ins> to Python’s default. It has many features for tab-completion, object introspection, system shell access, command history retrieval across sessions, and its own special command system for adding functionality when working interactively. It tries to be a very efficient environment both for Python code development and for exploration of problems using Python objects (in situations like data analysis).
 
 The topics covered are: 
 
