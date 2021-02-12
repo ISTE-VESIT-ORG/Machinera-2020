@@ -23,10 +23,12 @@ We cover the following topics in the workshop
   * [Selenium](#selenium)
   * [Scrapy](#scrapy)
 * Data Preprocessing
-  * [scikit-learn](#scikit-learn) 
+  * [Scikit-learn](#scikit-learn) 
+  * [Sweetviz](#sweetviz)
+  * [IPython](#ipython)
   <!--
-  change this/add others as needed 
-  -Hridesh 
+  I added the remaining ones that no one finished, lemme know if anything needs to be improved 
+  ~Hridesh 
   -->
 
 ## XPath and CSS_Selectors
@@ -107,4 +109,29 @@ The topics covered are:
 5. Splitting dataset into training and test set
 6. Feature scaling
 
-_For more details, visit the [Scikit-learn ](https://devdocs.io/scikit_learn/)_
+_For more details, visit the [Scikit-learn Documentation ](https://devdocs.io/scikit_learn/)_
+
+## Sweetviz
+
+Sweetviz is an open-source Python library that generates beautiful, high-density visualizations to help with **Exploratory Data Analysis (EDA)**. The output obtained from this library is a fully self-contained HTML application. The system is built with a focus on **target value visualisation** and **comparision of datasets** in an efficient, rapid fashion. The goal of the Sweetviz project is to help quick analysis of target characteristics, training vs testing data, and other such data characterization tasks. The Sweetviz library is under active development and has been constantly working to improve performance and eliminate bugs.
+
+The topics covered are: 
+
+1. Enviornment Setup (`pip install sweetviz`)
+2. EDA using Sweetviz
+3. Visualisation of Data
+
+_For more details, visit the [Sweetviz Documentation](https://pypi.org/project/sweetviz/)_
+
+## IPython
+IPython is a powerful interactive shell built using Python, JavaScript, HTML and CSS as well as a kernel for [Jupyter](https://jupyter.org/). The goal of IPython is to create a comprehensive environment for interactive and exploratory computing. It is an important tool used in EDA with its support for interactive data visualisation. 
+
+IPython provides an interactive shell superior to Python’s default. It has many features for tab-completion, object introspection, system shell access, command history retrieval across sessions, and its own special command system for adding functionality when working interactively. It tries to be a very efficient environment both for Python code development and for exploration of problems using Python objects (in situations like data analysis).
+
+The topics covered are: 
+
+1. Enviornment Setup (`pip install sweetviz`)
+2. EDA using IPython
+3. Visualisation of Data
+
+_For more details, visit the [IPython Documentation](https://ipython.readthedocs.io/en/stable/)_
