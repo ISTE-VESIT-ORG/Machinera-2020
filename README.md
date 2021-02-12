@@ -28,7 +28,6 @@ We cover the following topics in the workshop
   change this/add others as needed 
   -Hridesh 
   -->
-  * 
 
 ## XPath and CSS_Selectors
 
