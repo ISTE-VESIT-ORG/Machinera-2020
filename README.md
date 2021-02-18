@@ -22,14 +22,16 @@ We cover the following topics in the workshop
   * [BeautifulSoup](#beautifulsoup)
   * [Selenium](#selenium)
   * [Scrapy](#scrapy)
+* Exploratory Data Analysis
+  * [Description of data](#description-of-data)
+  * [Handling of data](#handling-of-duplicate-data)
+     * [Duplicate data](#handling-of-duplicate-data)
+     * [Missing values](#handling-of-missing-values)
+  * [Handling outliers](#handling-outliers)
+  * [Visualization](#visualization)
 * Data Preprocessing
   * [Scikit-learn](#scikit-learn) 
-  * [Sweetviz](#sweetviz)
   * [IPython](#ipython)
-  <!--
-  I added the remaining ones that no one finished, lemme know if anything needs to be improved 
-  ~Hridesh 
-  -->
 
 ## XPath and CSS_Selectors
 
@@ -96,6 +98,50 @@ Dependencies include: [BeautifulSoup](https://www.crummy.com/software/BeautifulS
 
 _For more details, visit the [Scrapy documentation](https://docs.scrapy.org/en/latest/)_
 
+## Description of data
+
+_[Pandas](https://pandas.pydata.org/docs/)_ provide various functions/attributes which give us detailed insight of our dataset. some of them are
+
+* `df.head(n)` - returns first n values
+* `df.tail(n)` - returns last n values
+* `df.shape`   - returns shape of the dataframe
+* `df.dtypes`  - returns datatype of each attribute(column) of the dataset
+* `df.info()`  - returns the count of Non-null values present in each column
+* `df.describe()` - returns basic statistical info about dataset
+
+_For more details of these functions, visit [API reference of Pandas documentation](https://pandas.pydata.org/docs/reference/index.html)_
+
+## Handling of duplicate data
+
+   * Duplicate records could make our model *biased* and thus are unwanted. We can remove duplicate values by using `drop_duplicate()` function.
+
+## Handling of missing values
+
+   * If there are *missing values* in a numerical data feature then mathematical operations will fail. If they are present in categorical data feature then during label encoding they might become a separate category. Thus it is necessary to remove these values.
+   * We have `dropna()` function which removes these values for us
+
+_For more details, visit [Handling missing values in Pandas](https://www.youtube.com/watch?v=fCMrO_VzeL8), [Dealing with missing data](https://towardsdatascience.com/dealing-with-missing-data-in-data-science-projects-e8ac7a4efdff)_
+
+## Handling Outliers
+
+   * Outliers are the values which are significantly different from other *values/observations*. An outlier can create major issues in *modelling*. So it is necessary to find outliers and treat them.
+   * Outliers can be detected by using [***Boxplot***](https://seaborn.pydata.org/generated/seaborn.boxplot.html). Boxplot depicts the variable distribution using quartile. It is also known as a *box* and *whiskers* plot.
+
+_For more details, visit [Dealing with outliers](https://cxl.com/blog/outliers/)_
+
+## Visualization
+
+We will be using ***Sweetviz*** for visualization. Sweetviz is an open-source Python library that generates beautiful, high-density visualizations to help with **Exploratory Data Analysis (EDA)**. The output obtained from this library is a fully self-contained HTML application. The system is built with a focus on **target value visualisation** and **comparision of datasets** in an efficient, rapid fashion. The goal of the Sweetviz project is to help quick analysis of target characteristics, training vs testing data, and other such data characterization tasks. The Sweetviz library is under active development and has been constantly working to improve performance and eliminate bugs.
+
+The topics covered are: 
+
+1. Enviornment Setup (`pip install sweetviz`)
+2. EDA using Sweetviz
+3. Visualisation of Data
+
+_For more details, visit the [Sweetviz Documentation](https://pypi.org/project/sweetviz/), [Alternatives to Sweetviz](https://analyticsindiamag.com/tips-for-automating-eda-using-pandas-profiling-sweetviz-and-autoviz-in-python/#:~:text=Sweetviz%20is%20a%20python%20library,we%20used%20for%20pandas%20profiling.)_
+
+
 ## Scikit-learn
 
 Scikit-learn (Sklearn) is the most useful and robust library for machine learning in Python. It provides a selection of efficient tools for **machine learning** and **statistical modeling** including classification, regression, clustering and dimensionality reduction via a consistence interface in Python. This library, which is largely written in Python, is built upon [NumPy](https://numpy.org/doc/stable/contents.html), [SciPy](https://matplotlib.org/contents.html) and [Matplotlib](https://matplotlib.org/contents.html)
@@ -110,18 +156,6 @@ The topics covered are:
 6. Feature scaling
 
 _For more details, visit the [Scikit-learn Documentation ](https://devdocs.io/scikit_learn/)_
-
-## Sweetviz
-
-Sweetviz is an open-source Python library that generates beautiful, high-density visualizations to help with **Exploratory Data Analysis (EDA)**. The output obtained from this library is a fully self-contained HTML application. The system is built with a focus on **target value visualisation** and **comparision of datasets** in an efficient, rapid fashion. The goal of the Sweetviz project is to help quick analysis of target characteristics, training vs testing data, and other such data characterization tasks. The Sweetviz library is under active development and has been constantly working to improve performance and eliminate bugs.
-
-The topics covered are: 
-
-1. Enviornment Setup (`pip install sweetviz`)
-2. EDA using Sweetviz
-3. Visualisation of Data
-
-_For more details, visit the [Sweetviz Documentation](https://pypi.org/project/sweetviz/)_
 
 ## IPython
 IPython is a powerful interactive shell built using _**Python, JavaScript, HTML and CSS**_ as well as a kernel for [Jupyter](https://jupyter.org/). The goal of IPython is to create a comprehensive environment for interactive and exploratory computing. It is an important tool used in EDA with its support for interactive data visualisation. 
