@@ -30,8 +30,11 @@ We cover the following topics in the workshop
   * [Handling outliers](#handling-outliers)
   * [Visualization](#visualization)
 * Data Preprocessing
-  * [Scikit-learn](#scikit-learn) 
-  * [IPython](#ipython)
+  * [Handling duplicate and missing data](#handling-duplicate-and-missing-data)
+  * [Extract Dependent and Independent variables](#extract-dependent-and-independent-variables)
+  * [Encoding Categorical Data](#encoding-categorical-data)
+  * [Splitting dataset into training and test set](#splitting-dataset-into-training-and-test-set)
+  * [Feature Scaling](#feature-scaling)
 
 ## XPath and CSS_Selectors
 
@@ -98,6 +101,8 @@ Dependencies include: [BeautifulSoup](https://www.crummy.com/software/BeautifulS
 
 _For more details, visit the [Scrapy documentation](https://docs.scrapy.org/en/latest/)_
 
+## Exploratory Data Analysis
+
 ## Description of data
 
 _[Pandas](https://pandas.pydata.org/docs/)_ provide various functions/attributes which give us detailed insight of our dataset. some of them are
@@ -142,30 +147,60 @@ The topics covered are:
 _For more details, visit the [Sweetviz Documentation](https://pypi.org/project/sweetviz/), [Alternatives to Sweetviz](https://analyticsindiamag.com/tips-for-automating-eda-using-pandas-profiling-sweetviz-and-autoviz-in-python/#:~:text=Sweetviz%20is%20a%20python%20library,we%20used%20for%20pandas%20profiling.)_
 
 
-## Scikit-learn
+## Data Preprocessing
 
-Scikit-learn (Sklearn) is the most useful and robust library for machine learning in Python. It provides a selection of efficient tools for **machine learning** and **statistical modeling** including classification, regression, clustering and dimensionality reduction via a consistence interface in Python. This library, which is largely written in Python, is built upon [NumPy](https://numpy.org/doc/stable/contents.html), [SciPy](https://matplotlib.org/contents.html) and [Matplotlib](https://matplotlib.org/contents.html)
+## Handling duplicate and missing data
 
-The topics covered are: 
+Duplicate records could make our model biased and thus are unwanted. We have used `drop_duplicate()` function to remove duplicate values.
 
-1. Enviornment Setup (`pip install scikit-learn`)
-2. Handling Missing and Duplicate Data
-3. Extract Dependent and Independent variables
-4. Encoding Categorical Data
-5. Splitting dataset into training and test set
-6. Feature scaling
+If there are missing values in a numerical data feature then mathematical operations will fail (i.e. throw an error). If they are present in categorical data feature then during label encoding they might become a separate category. Thus it is necessary to remove these values.
+We have used `dropna()` function to remove these values for us.
 
-_For more details, visit the [Scikit-learn Documentation ](https://devdocs.io/scikit_learn/)_
 
-## IPython
-IPython is a powerful interactive shell built using _**Python, JavaScript, HTML and CSS**_ as well as a kernel for [Jupyter](https://jupyter.org/). The goal of IPython is to create a comprehensive environment for interactive and exploratory computing. It is an important tool used in EDA with its support for interactive data visualisation. 
+## Extract Dependent and Independent variables
 
-IPython provides an interactive shell <ins>superior</ins> to Python’s default. It has many features for tab-completion, object introspection, system shell access, command history retrieval across sessions, and its own special command system for adding functionality when working interactively. It tries to be a very efficient environment both for Python code development and for exploration of problems using Python objects (in situations like data analysis).
+Independent variables (also referred to as Features) are the input for a process that is being analyzes. Dependent variables are the output of the process.
+For example, in the below data set, the independent variables are the input of the purchasing process being analyzed. The result (whether a user purchased or not) is the dependent variable.
 
-The topics covered are: 
+_Reference: [Splitting data in dependent and independent variables](https://www.pluralsight.com/guides/importing-and-splitting-data-into-dependent-and-independent-features-for-ml)_
 
-1. Enviornment Setup (`pip install sweetviz`)
-2. EDA using IPython
-3. Visualisation of Data
+## Encoding Categorical Data
 
-_For more details, visit the [IPython Documentation](https://ipython.readthedocs.io/en/stable/)_
+1. Label Encoding
+When we give our Dataset to model we need to have all numerical data into it, this implies that we have to eliminate all the string type data. This is achieved by Label encoding.
+In label encoding all the categories are enlisted in a numpy array and the index of that array is used to replace all the categories in that column. 
+`preprocessing.LabelEncoder()` of sklearn is used for label encoding
+
+2. One Hot Encoding
+The main drawback of Label encoder is that it introduces hierarchy in the categorical data which is unwanted most of the times. To overcome this drawback one hot encoding is used.
+What one hot encoding does is, it takes a column which has categorical data, which has been label encoded, and then splits the column into multiple columns. The numbers are replaced by 1s and 0s, depending on which column has what value.
+
+_Further reading -_
+  * _[Feature Engineering](https://www.youtube.com/watch?v=6WDFfaYtN6s)_
+  * _[Encoding Data](https://www.analyticsvidhya.com/blog/2020/08/types-of-categorical-data-encoding/)_
+
+## Splitting dataset into training and test set
+
+We use train-test-split module from sklearn to divide our dataset in training and testing parts. By doing this we allow our model to learn from larger chunk of data and then we can test its accuracy using smaller chunk of data.
+
+We Import train-test-split by following command -
+`from sklearn.model_selection import train_test_split`
+
+When splitting a dataset there are some competing concerns:
+* If you have less training data, your parameter estimates have greater variance.
+* And if you have less testing data, your performance statistic will have greater variance.
+* The data should be divided in such a way that neither of them is too high, which is more dependent on the amount of data you have.
+* If your data is too small then no split will give you satisfactory variance so you will have to do cross-validation.
+* If your data is huge then it doesn’t really matter whether you choose an 80:20 split or a 90:10 split
+
+
+## Feature Scaling
+
+Feature scaling refers to putting the values in the same range or same scale so that no variable is dominated by the other.
+Numerical data in the dataset can have varied range i.e. one parameter may lie between 1 to 10 for all records whereas another parameter can lie between 1000 to 5000. Though data is logically correct but after passing to particular algorithm, the features with higher magnitude become key parameters for that algorithm.
+
+To avoid such situations feature scaling is performed using some statistical techniques like Min-Max scaling & Mean normalization. This creates a common range for all the parameters and thus removes Algorithmic bias.
+
+_References -_
+  * _[Standardization and Normalization](https://www.analyticsvidhya.com/blog/2020/04/feature-scaling-machine-learning-normalization-standardization/)_
+  * _[Difference between Standardization and Normalization](https://www.youtube.com/watch?v=mnKm3YP56PY)_
