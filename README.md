@@ -62,11 +62,6 @@ To get going with the repo and AI concepts we expect you to follow all the topic
 
 
 * [Data Manipulation and Visualization](https://github.com/ISTE-VESIT-ORG/Machinera-2020/tree/Course-1)
-  * Numpy
-  * Pandas
-  * Matplotlib
-  * Seaborn
-  * Scipy
 * [Dataset Generation, Web Scraping, Data preprocessing](https://github.com/ISTE-VESIT-ORG/Machinera-2020/tree/Course-2)
 * [Machine Learning](https://github.com/ISTE-VESIT-ORG/Machinera-2020/tree/Course-3)
 
