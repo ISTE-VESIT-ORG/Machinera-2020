@@ -166,12 +166,12 @@ _Reference: [Splitting data in dependent and independent variables](https://www.
 
 ## Encoding Categorical Data
 
-1. Label Encoding
+1. **Label Encoding:**
 When we give our Dataset to model we need to have all numerical data into it, this implies that we have to eliminate all the string type data. This is achieved by Label encoding.
 In label encoding all the categories are enlisted in a numpy array and the index of that array is used to replace all the categories in that column. 
 `preprocessing.LabelEncoder()` of sklearn is used for label encoding
 
-2. One Hot Encoding
+2. **One Hot Encoding:**
 The main drawback of Label encoder is that it introduces hierarchy in the categorical data which is unwanted most of the times. To overcome this drawback one hot encoding is used.
 What one hot encoding does is, it takes a column which has categorical data, which has been label encoded, and then splits the column into multiple columns. The numbers are replaced by 1s and 0s, depending on which column has what value.
 
