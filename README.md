@@ -24,13 +24,12 @@ We cover the following topics in the workshop
   * [Scrapy](#scrapy)
 * Exploratory Data Analysis
   * [Description of data](#description-of-data)
-  * [Handling of data](#handling-of-duplicate-data)
+  * [Handling of data](#handling-of-data)
      * [Duplicate data](#handling-of-duplicate-data)
      * [Missing values](#handling-of-missing-values)
   * [Handling outliers](#handling-outliers)
   * [Visualization](#visualization)
 * Data Preprocessing
-  * [Handling duplicate and missing data](#handling-duplicate-and-missing-data)
   * [Extract Dependent and Independent variables](#extract-dependent-and-independent-variables)
   * [Encoding Categorical Data](#encoding-categorical-data)
   * [Splitting dataset into training and test set](#splitting-dataset-into-training-and-test-set)
@@ -101,8 +100,6 @@ Dependencies include: [BeautifulSoup](https://www.crummy.com/software/BeautifulS
 
 _For more details, visit the [Scrapy documentation](https://docs.scrapy.org/en/latest/)_
 
-## Exploratory Data Analysis
-
 ## Description of data
 
 _[Pandas](https://pandas.pydata.org/docs/)_ provide various functions/attributes which give us detailed insight of our dataset. some of them are
@@ -116,23 +113,25 @@ _[Pandas](https://pandas.pydata.org/docs/)_ provide various functions/attributes
 
 _For more details of these functions, visit [API reference of Pandas documentation](https://pandas.pydata.org/docs/reference/index.html)_
 
-## Handling of duplicate data
+## Handling of data
+
+### Handling of duplicate data
 
    * Duplicate records could make our model *biased* and thus are unwanted. We can remove duplicate values by using `drop_duplicate()` function.
 
-## Handling of missing values
+### Handling of missing values
 
    * If there are *missing values* in a numerical data feature then mathematical operations will fail. If they are present in categorical data feature then during label encoding they might become a separate category. Thus it is necessary to remove these values.
    * We have `dropna()` function which removes these values for us
 
-_For more details, visit [Handling missing values in Pandas](https://www.youtube.com/watch?v=fCMrO_VzeL8), [Dealing with missing data](https://towardsdatascience.com/dealing-with-missing-data-in-data-science-projects-e8ac7a4efdff)_
+_For more details, view [Handling missing values in Pandas](https://www.youtube.com/watch?v=fCMrO_VzeL8), [Dealing with missing data](https://towardsdatascience.com/dealing-with-missing-data-in-data-science-projects-e8ac7a4efdff)_
 
 ## Handling Outliers
 
    * Outliers are the values which are significantly different from other *values/observations*. An outlier can create major issues in *modelling*. So it is necessary to find outliers and treat them.
    * Outliers can be detected by using [***Boxplot***](https://seaborn.pydata.org/generated/seaborn.boxplot.html). Boxplot depicts the variable distribution using quartile. It is also known as a *box* and *whiskers* plot.
 
-_For more details, visit [Dealing with outliers](https://cxl.com/blog/outliers/)_
+_For more details, view [Dealing with outliers](https://cxl.com/blog/outliers/)_
 
 ## Visualization
 
@@ -146,23 +145,12 @@ The topics covered are:
 
 _For more details, visit the [Sweetviz Documentation](https://pypi.org/project/sweetviz/), [Alternatives to Sweetviz](https://analyticsindiamag.com/tips-for-automating-eda-using-pandas-profiling-sweetviz-and-autoviz-in-python/#:~:text=Sweetviz%20is%20a%20python%20library,we%20used%20for%20pandas%20profiling.)_
 
-
-## Data Preprocessing
-
-## Handling duplicate and missing data
-
-Duplicate records could make our model biased and thus are unwanted. We have used `drop_duplicate()` function to remove duplicate values.
-
-If there are missing values in a numerical data feature then mathematical operations will fail (i.e. throw an error). If they are present in categorical data feature then during label encoding they might become a separate category. Thus it is necessary to remove these values.
-We have used `dropna()` function to remove these values for us.
-
-
 ## Extract Dependent and Independent variables
 
 Independent variables (also referred to as Features) are the input for a process that is being analyzes. Dependent variables are the output of the process.
 For example, in the below data set, the independent variables are the input of the purchasing process being analyzed. The result (whether a user purchased or not) is the dependent variable.
 
-_Reference: [Splitting data in dependent and independent variables](https://www.pluralsight.com/guides/importing-and-splitting-data-into-dependent-and-independent-features-for-ml)_
+_For more details, view [Splitting data in dependent and independent variables](https://www.pluralsight.com/guides/importing-and-splitting-data-into-dependent-and-independent-features-for-ml)_
 
 ## Encoding Categorical Data
 
@@ -175,9 +163,7 @@ In label encoding all the categories are enlisted in a numpy array and the index
 The main drawback of Label encoder is that it introduces hierarchy in the categorical data which is unwanted most of the times. To overcome this drawback one hot encoding is used.
 What one hot encoding does is, it takes a column which has categorical data, which has been label encoded, and then splits the column into multiple columns. The numbers are replaced by 1s and 0s, depending on which column has what value.
 
-_Further reading -_
-  * _[Feature Engineering](https://www.youtube.com/watch?v=6WDFfaYtN6s)_
-  * _[Encoding Data](https://www.analyticsvidhya.com/blog/2020/08/types-of-categorical-data-encoding/)_
+_For more details, view [Feature Engineering](https://www.youtube.com/watch?v=6WDFfaYtN6s), [Encoding Data](https://www.analyticsvidhya.com/blog/2020/08/types-of-categorical-data-encoding/)_
 
 ## Splitting dataset into training and test set
 
@@ -201,6 +187,4 @@ Numerical data in the dataset can have varied range i.e. one parameter may lie b
 
 To avoid such situations feature scaling is performed using some statistical techniques like Min-Max scaling & Mean normalization. This creates a common range for all the parameters and thus removes Algorithmic bias.
 
-_References -_
-  * _[Standardization and Normalization](https://www.analyticsvidhya.com/blog/2020/04/feature-scaling-machine-learning-normalization-standardization/)_
-  * _[Difference between Standardization and Normalization](https://www.youtube.com/watch?v=mnKm3YP56PY)_
+_For more details, view [Standardization and Normalization](https://www.analyticsvidhya.com/blog/2020/04/feature-scaling-machine-learning-normalization-standardization/), [Difference between Standardization and Normalization](https://www.youtube.com/watch?v=mnKm3YP56PY)_
