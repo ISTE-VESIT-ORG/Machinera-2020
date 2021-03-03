@@ -46,6 +46,6 @@ _For more details, check out the [Supervised Learning Documentation](https://sci
 ## Unsupervised Learning
 
 ### Clustering
-Cluster analysis, or clustering, is an unsupervised machine learning task. It involves automatically discovering ***natural grouping in data***. Unlike supervised learning (like predictive modeling), clustering algorithms only interpret the input data and find natural groups or clusters in feature space. The course shows the working of ***_ [K-Mean Clustering](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html)_***.
+Cluster analysis, or clustering, is an unsupervised machine learning task. It involves automatically discovering ***natural grouping in data***. Unlike supervised learning (like predictive modeling), clustering algorithms only interpret the input data and find natural groups or clusters in feature space. The course shows the working of ***_[K-Mean Clustering](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html)._***
 
 _For more details, check out the [Unsupervised Learning Documentation](https://scikit-learn.org/stable/unsupervised_learning.html)_
