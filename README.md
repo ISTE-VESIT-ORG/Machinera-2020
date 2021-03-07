@@ -70,9 +70,7 @@ Reinforcement learning is fairly different when compared to supervised and unsup
 
 _For more details, check out the [Reinforcement Learning Documentation](https://towardsdatascience.com/reinforcement-learning-tutorial-part-1-q-learning-cadb36998b28)_
 
-## Algorithms Covered
-
-## Supervised Learning
+## Algorithms We Covered 
 
 ### Regression
 
@@ -90,9 +88,9 @@ In machine learning, classification refers to a predictive modeling problem wher
 * [K-Nearest Neighbour Classification](https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html)
 * [Decision Tree Classification](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html)
 * [Random Forest Classification](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html)
-* [Support Vector Classification](https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html).
-
-## Unsupervised Learning
+* [Support Vector Classification](https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html)
+* [Logistic Regression](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html)
+* [Naive Bayes](https://scikit-learn.org/stable/modules/naive_bayes.html)
 
 ### Clustering
 Cluster analysis, or clustering, is an unsupervised machine learning task. It involves automatically discovering ***natural grouping in data***. Unlike supervised learning (like predictive modeling), clustering algorithms only interpret the input data and find natural groups or clusters in feature space. The course shows the implimentation of ***_[K-Mean Clustering](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html)._***
