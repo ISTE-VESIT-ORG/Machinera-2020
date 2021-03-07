@@ -31,8 +31,8 @@
 * [Pull Request](#pull-request)
 * [Contributing](#contributing)
 * [License](#license)
+* [Credits](#credits)
 * [Contact](#contact)
-
 
 
 
@@ -126,6 +126,13 @@ Contributions are what make the open source community such an amazing place to b
 
 Distributed under the MIT License. See [`LICENSE`](https://github.com/ISTE-VESIT-ORG/Machinera-2020/blob/main/LICENSE) for more information.
 
+<!-- CREDITS -->
+## Credits
+* [Srajan Shetty](https://github.com/Srajan1122)
+* [Devdatta Khoche](https://github.com/devdattakhoche)
+* [Aditya Kotkar](https://github.com/ADI-KOTKAR)
+* [Akash Maurya](https://github.com/AkashMaurya09)
+* [Amit Chhabria](https://github.com/amit328)
 
 
 <!-- CONTACT -->
