@@ -93,5 +93,5 @@ In machine learning, classification refers to a predictive modeling problem wher
 * [Naive Bayes](https://scikit-learn.org/stable/modules/naive_bayes.html)
 
 ### Clustering
-Cluster analysis, or clustering, is an unsupervised machine learning task. It involves automatically discovering ***natural grouping in data***. Unlike supervised learning (like predictive modeling), clustering algorithms only interpret the input data and find natural groups or clusters in feature space. The course shows the implimentation of ***_[K-Mean Clustering](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html)._***
-
+Cluster analysis, or clustering, is an unsupervised machine learning task. It involves automatically discovering ***natural grouping in data***. Unlike supervised learning (like predictive modeling), clustering algorithms only interpret the input data and find natural groups or clusters in feature space. The course shows the implementation of:
+* [K-Mean Clustering](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html)
